@@ -21,7 +21,7 @@ Emacs uses this information for navigation commands and font locking.
 
 When you move over a symbol with [`forward-symbol`][fs], it's the syntax table
 that tells Emacs where the symbol ends.  It's also the reason, why
-[`forward-word`][fw] stops a dash in Emacs Lisp Mode, whereas
+[`forward-word`][fw] stops at a dash in Emacs Lisp Mode, whereas
 [`forward-symbol`][fs] moves over a dash and stops at the next whitespace or
 parenthesis: The syntax table of Emacs Lisp mode categorizes the dash as a
 symbol character, so commands working on words ignore it.
@@ -35,7 +35,7 @@ The real power of this feature is hidden beneath the phrase “matching
 delimiter”: If the syntax table is setup properly, Emacs automatically skips
 across escaped string delimiters inside strings, or across nested comments!
 
-Node that in this article we will only cover the Syntax Table as far as
+Note that in this article we will only cover the Syntax Table as far as
 fontification is concerned.  Generally, Syntax Tables of major modes are much
 larger, and also specify word and symbol constituents, paired delimiters, and
 more, which is important for word, symbol and sexp navigation commands (i.e. the
@@ -122,7 +122,7 @@ Comments
 Syntactic fontification also handles comments.  Puppet has two types of
 comments:
 
-- Shell style comments, starting with a dash `#` and ending with a new line
+- Shell style comments, starting with a hash `#` and ending with a new line
 - C-style comments enclosed in `/*` and `*/`
 
 The first kind is easy:
@@ -179,8 +179,8 @@ When you try this, you'll notice a serious flaw, though:  A comment started
 `/*` ends at the next line break!  Apparently Emacs doesn't yet understand,
 that these are actually two *different* styles of comments.
 
-We need make Emacs aware of this difference with another flag.  From [Syntax
-Flags][]:
+We need to make Emacs aware of this difference with another flag.  From
+[Syntax Flags][]:
 
 - `b` means that C as a comment delimiter belongs to the alternative "b"
   comment style.  For a two-character comment starter, this flag is only
@@ -216,7 +216,7 @@ characters, or on a specific position on a line, syntax tables are out of scope.
 In such cases, you need to implement fontification in a different way.  Let's
 briefly look at two common cases.
 
-In many configuration file types the dash starts a comment only when at the
+In many configuration file types the hash starts a comment only when at the
 beginning of a line or preceded by whitespace only.  A common example is
 `.gitignore`.  Since the syntax of such configuration files is very simple
 normally, it's usually sufficient to simply disable syntactic fontification with
