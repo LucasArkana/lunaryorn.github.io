@@ -43,7 +43,7 @@ executables as in your terminal.
 Finally enable the buggy package by following its setup instructions.
 Essentially you should now manually execute the commands that you copied to your
 init file when you installed the package in your Emacs.  For instance, if you’d
-like to reproduce a bug in [Flycheck][] you should not type `M-x
+like to reproduce a bug in [Flycheck][] you should now type `M-x
 global-flycheck-mode` to enable Flycheck.
 
 Now you’re ready to reproduce the bug, simply by following the same steps that
