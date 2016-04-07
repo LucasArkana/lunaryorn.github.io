@@ -23,6 +23,10 @@ exclude_rule 'MD033'
 # Do not enforce h1 header at beginning; our headers come from YAML frontmatter
 exclude_rule 'MD002'
 
+# Do not require a header at the beginning of the file, because of YAML
+# frontmatter
+exclude_rule 'MD041'
+
 # Do not enforce blank lines around lists and headers, to allow Kramdown class
 # specifiers
 exclude_rule 'MD032'
