@@ -23,7 +23,7 @@ require 'bundler/setup'
 require 'rake'
 require 'rake/clean'
 
-require 'html/proofer'
+require 'html-proofer'
 require 'scss_lint/rake_task'
 require 'rubocop/rake_task'
 
@@ -129,11 +129,11 @@ namespace :test do
 
   desc 'Test the generated HTML'
   task html: ['build:site'] do
-    HTML::Proofer
-      .new('_site',
-           disable_external: true,
-           check_html: true,
-           check_favicon: true)
+    HTMLProofer
+      .check_directory('_site',
+                       disable_external: true,
+                       check_html: true,
+                       check_favicon: true)
       .run
   end
 end
