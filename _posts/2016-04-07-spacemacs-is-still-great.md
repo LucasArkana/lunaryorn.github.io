@@ -27,4 +27,4 @@ documentation in my own editor.
 But ultimately, I’m happy to be back at my own configuration.  It feels like
 being back home after a long, long holiday in a far, far away place :)
 
-[choices][]: https://twitter.com/lunaryorn/status/717053539021926401
+[tweeted]: https://twitter.com/lunaryorn/status/717053539021926401
