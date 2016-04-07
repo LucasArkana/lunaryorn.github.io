@@ -9,9 +9,9 @@ extra_feeds:
     url: "/emacs.atom"
 ---
 
-I use [Spacemacs][], a [GNU Emacs] distribution, for most of my daily work, with
-some custom layers in my [Spacemacs configuration][spacemacsd].  I also maintain
-a couple of Emacs packages:
+I use [GNU Emacs][] distribution for most of my daily work, with an
+[elaborate personal configuration][emacsd].  I also maintain a couple of Emacs
+packages:
 
 * [Flycheck][] is an on-the-fly syntax checking extension, intended as
   replacement for Flymake, with better performance, more supported languages and
@@ -31,12 +31,11 @@ I frequently write about Emacs; these are my latest posts
 
 {% include post-list.html posts=site.categories.emacs limit=5 include_excerpt=true %}
 
-[Spacemacs]: https://github.com/syl20bnr/spacemacs
+[GNU Emacs]: http://www.gnu.org/software/emacs/
 [Flycheck]: http://www.flycheck.org
 [Puppet Mode]: https://github.com/lunaryorn/puppet-mode
 [ansible-doc]: https://github.com/lunaryorn/ansible-doc.el
 [fancy-battery]: https://github.com/lunaryorn/fancy-battery.el
 [pkg-info]: https://github.com/lunaryorn/pkg-info.el
 [epl]: https://github.com/cask/epl
-[GNU Emacs]: http://www.gnu.org/software/emacs/
-[spacemacsd]: https://github.com/lunaryorn/.spacemacs.d
+[emacsd]: https://github.com/lunaryorn/.emacs.d

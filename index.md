@@ -13,9 +13,8 @@ You can find my open source work on [Github][], read my answers on
 I write Scala for a living and a couple of other languages for fun and a better
 world—mostly Haskell and Rust.  I used to write Python for almost a decade, and
 created Windows GUI applications with WPF and C#.  I’ve also done a bit of
-OCaml, and occasionally work on iOS Apps with Swift.  I use [Spacemacs][] for
-most of this, and maintain a couple of Emacs packages, most notably
-[Flycheck][].
+OCaml, and occasionally work on iOS Apps with Swift.  I use [Emacs][] for most
+of this, and maintain a couple of Emacs packages, most notably [Flycheck][].
 
 ## Posts ##
 
@@ -28,4 +27,4 @@ my latest posts ([Atom feed]({{site.baseurl}}/feed.atom)):
 [Github]: https://github.com/lunaryorn
 [Stack Overflow]: http://stackoverflow.com/users/355252/lunaryorn
 [Twitter]: https://twitter.com/lunaryorn
-[Spacemacs]: https://github.com/syl20bnr/spacemacs
+[Emacs]: {{site.baseurl}}/pages/emacs.html
