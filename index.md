@@ -24,6 +24,11 @@ My other passion is [Emacs][], the world’s best editor.  I maintain
 You can find my open source work on [Github][], read my answers on
 [Stack Overflow][] and follow me on [Twitter][].
 
+My GPG key has the ID `5C42FE98` and the fingerprint `5C72 C0D3 CC58 04FF 522E
+4815 C4EC 41E3 5C42 FE98`.  You can get it from GPG keyservers or
+[download it]({{site.baseurl}}/public-key.txt).  I use this key to sign my
+commits on Github.
+
 ## Posts ##
 
 I write infrequently, mostly about Emacs and functional programming.  These are
