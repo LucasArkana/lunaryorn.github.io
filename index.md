@@ -14,7 +14,8 @@ I write Scala for a living and a couple of other languages for fun and a better
 world—mostly Haskell and Rust.  I used to write Python for almost a decade, and
 created Windows GUI applications with WPF and C#.  I’ve also done a bit of
 OCaml, and occasionally work on iOS Apps with Swift.  I use [Emacs][] for most
-of this, and maintain a couple of Emacs packages, most notably [Flycheck][].
+of this and maintain [Flycheck][], a popular Emacs package for automatic syntax
+checking.
 
 ## Posts ##
 
