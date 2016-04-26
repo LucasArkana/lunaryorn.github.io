@@ -2,6 +2,7 @@
 title: Spacemacs is still great, folks!
 category: emacs
 excerpt: Don’t worry folks, Spacemacs is still a great thing!
+published: false
 ---
 
 Last week I went back to my own personal Emacs configuration after using
