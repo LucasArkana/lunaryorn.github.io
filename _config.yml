@@ -14,6 +14,8 @@ author:
   email: "me@lunaryorn.com"
   uri: "http://www.lunaryorn.com"
 
+repository: lunaryorn/lunaryorn.github.io
+
 # Build settings
 environment: production
 timezone: "Europe/Berlin"
