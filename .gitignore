@@ -1,5 +1,6 @@
 # Bundler configuration
 /.bundle/
+/Gemfile.lock
 
 # Jekyll generated site
 /_site/
