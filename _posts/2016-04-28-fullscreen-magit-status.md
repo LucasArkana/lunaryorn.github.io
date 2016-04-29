@@ -30,9 +30,7 @@ whole frame but it’s easy enough to write one:
 ALIST is a `display-buffer' ALIST.
 
 Return the new window for BUFFER."
-  (let ((window
-         (or (display-buffer-use-some-window buffer alist)
-             (display-buffer-pop-up-window buffer alist))))
+  (let ((window (display-buffer-pop-up-window buffer alist)))
     (when window
       (delete-other-windows window))
     window))
