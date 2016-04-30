@@ -6,6 +6,11 @@ layout: page
 
 > A personal blog about Emacs and functional programming.
 
+<div>
+<img class="myself" src="{{site.baseurl}}/images/me.jpg"
+     alt="A picture of myself"/>
+</div>
+
 Hello, I'm Sebastian Wiesner, software developer by occupation and passion.
 
 These days my passion is Scala, and I’m incredibly happy that I can use Scala
