@@ -2,6 +2,9 @@
 /.bundle/
 /Gemfile.lock
 
+# Vendored Gems
+/vendor/
+
 # Jekyll generated site
 /_site/
 
