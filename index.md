@@ -27,8 +27,7 @@ My other passion is [Emacs][], the world’s best editor.  I maintain
 [Flycheck][], a popular Emacs package for automatic syntax checking.
 
 You can find my open source work on [Github][], read my answers on
-[Stack Overflow][] and follow me on [Twitter][].  Recruiters, take a look at my
-[LinkedIn][] or [Xing][] profiles.
+[Stack Overflow][] and follow me on [Twitter][].
 
 My GPG key has the ID `5C42FE98` and the fingerprint `5C72 C0D3 CC58 04FF 522E
 4815 C4EC 41E3 5C42 FE98`.  You can get it from GPG keyservers or
@@ -46,6 +45,4 @@ my latest posts ([Atom feed]({{site.baseurl}}/feed.atom)):
 [Github]: https://github.com/lunaryorn
 [Stack Overflow]: http://stackoverflow.com/users/355252/lunaryorn
 [Twitter]: https://twitter.com/lunaryorn
-[LinkedIn]: https://www.linkedin.com/in/lunaryorn
-[Xing]: https://www.xing.com/profile/Sebastian_Wiesner13
 [Emacs]: {{site.baseurl}}/pages/emacs.html
