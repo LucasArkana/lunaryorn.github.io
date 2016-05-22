@@ -65,6 +65,12 @@ $container-side-padding: 15px;
   -o-hyphens: $setting;
 }
 
+@mixin overflow-scroll {
+  overflow: scroll;
+  // scss-lint:disable VendorPrefix
+  -webkit-overflow-scrolling: touch;
+}
+
 // Basic typography styles
 body {
   // Enable a couple of nice font features
@@ -261,9 +267,11 @@ code {
 }
 
 pre {
+  @include overflow-scroll;
   border: 1px solid $border-color;
   border-radius: 4px;
   padding: 10px;
+  word-wrap: normal;
 
   code {
     font-size: $mono-block-font-size;
