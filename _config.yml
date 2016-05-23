@@ -35,6 +35,7 @@ markdown: kramdown
 gems:
   - jekyll-seo-tag
   - jekyll-github-metadata
+  - jekyll-sitemap
 
 sass:
   style: compressed
